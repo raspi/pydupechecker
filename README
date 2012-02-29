@@ -1,0 +1,7 @@
+Get list of duplicate files as Python pickle file for later processing
+
+Idea:
+1. get list of files indexed by file size
+2. process through that list and calculate hashes of beginning of same sized files (fast)
+3. process through that list and calculate full checksum of whole files of same sized files
+4. output pickle file for your next processing
